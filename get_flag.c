@@ -15,7 +15,7 @@ int i = 0;
 switch (s)
 {
 case '+':
-f->plus;
+f->plus = 1;
 i = 1;
 break;
 case ' ':
